@@ -1,66 +1,91 @@
 import React from "react";
-import ZARR from "../../src/assets/ZARR.png"
+import ZARR from "../../src/assets/ZARR.png";
+import "../styles/components/footer.css"
+import "../global.css"
 
 function Footer() {
     return (
         <footer className="footer">
+
+            {/* FOOTER MAIN */}
             <div className="footer-main">
+                {/* Brand */}
                 <div className="footer-brand">
-                    <img src={ZARR} alt="ZARR-Image" />
-                    <p>TIMELESS ELEGANCE. CRAFTED TO PERFEXTION</p>
+                    <img src={ZARR} alt="ZARR" />
+                    <p>TIMELESS ELEGANCE.<br />CRAFTED TO PERFECTION.</p>
+                    {/* Social Links */}
+                    <div className="footer-socials"><a href="#" aria-label="Instagram"><i className="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i className="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="X"><i className="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i className="fa-brands fa-youtube"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
+                    </div>
                 </div>
+                {/* SHOP */}
                 <div className="footer-links">
                     <h3>SHOP</h3>
                     <ul>
-                        <li><a href="">All Watches</a></li>
-                        <li><a href="">Men's Watches</a></li>
-                        <li><a href="">Women's Watches</a></li>
-                        <li><a href="">Limited Edition</a></li>
-                        <li><a href="">Accessories</a></li>
+                        <li><a href="/shop">All Watches</a></li>
+                        <li><a href="/shop/men">Men's Watches</a></li>
+                        <li><a href="/shop/women">Women's Watches</a></li>
+                        <li><a href="/shop/limited">Limited Edition</a></li>
+                        <li><a href="/shop/accessories">Accessories</a></li>
                     </ul>
                 </div>
+                {/* CUSTOMER CARE */}
                 <div className="footer-customer-care">
                     <h3>CUSTOMER CARE</h3>
                     <ul>
-                        <li><a href="">Track Your Order</a></li>
-                        <li><a href="">Warranty</a></li>
-                        <li><a href="">Returns & Exchanges</a></li>
-                        <li><a href="">FAQs</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="/track-order">Track Your Order</a></li>
+                        <li><a href="/warranty">Warranty</a></li>
+                        <li><a href="/returns">Returns & Exchanges</a></li>
+                        <li><a href="/faqs">FAQs</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                     </ul>
                 </div>
+                {/* COMPANY */}
                 <div className="footer-company">
                     <h3>COMPANY</h3>
                     <ul>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Our Craftsmanship</a></li>
-                        <li><a href="">Sustainability</a></li>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Press</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/craftsmanship">Our Craftsmanship</a></li>
+                        <li><a href="/sustainability">Sustainability</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/press">Press</a></li>
                     </ul>
                 </div>
+                {/* EXTRA */}
                 <div className="footer-extras">
                     <h3>EXTRA</h3>
                     <ul>
-                        <li><a href="">Gift Cards</a></li>
-                        <li><a href="">Watch Guide</a></li>
-                        <li><a href="">Size GUide</a></li>
-                        <li><a href="">Store Locater</a></li>
+                        <li><a href="/gift-cards">Gift Cards</a></li>
+                        <li><a href="/watch-guide">Watch Guide</a></li>
+                        <li><a href="/size-guide">Size Guide</a></li>
+                        <li><a href="/stores">Store Locator</a></li>
                     </ul>
                 </div>
-                <div className="footer-contact"></div>
+                {/* CONTACT */}
+                <div className="footer-contact">
+
+                    <h3>GET IN TOUCH</h3>
+                    <p>Have a question about your ZARR watch?</p>
+                    <a href="mailto:contact@zarr.com">contact@zarr.com</a>
+                    <a href="tel:+923001234567">+92 300 1234567</a>
+                </div>
             </div>
+            {/* DIVIDER */}
             <div className="footer-divider"></div>
+            {/* FOOTER BOTTOM */}
             <div className="footer-bottom">
                 <p className="footer-left">&copy; 2026 ZARR. All Rights Reserved.</p>
                 <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Services</a></li>
-                    <li><a href="#">Cookies Policy</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/cookies">Cookies Policy</a></li>
                 </ul>
             </div>
         </footer>
-    )
+    );
 }
 
 export default Footer;
