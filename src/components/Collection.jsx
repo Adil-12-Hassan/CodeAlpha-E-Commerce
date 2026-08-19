@@ -27,7 +27,7 @@ function Collection() {
                     <div className="product-info">
                         <h3 className="product-name">ZARR HERITAGE<br />AUTOMATIC</h3>
                         <p className="product-price">PKR 89,500</p>
-                        <a href="/shop" className="product-link">VIEW DETAILS<span>→</span></a>
+                        <a href="/collection" className="product-link">VIEW DETAILS<span>→</span></a>
                     </div>
                 </div>
                 {/* Product 02 */}
@@ -38,7 +38,7 @@ function Collection() {
                     <div className="product-info">
                         <h3 className="product-name">ZARR CHRONO<br />ELEGANCE</h3>
                         <p className="product-price">PKR 95,000</p>
-                        <a href="/shop" className="product-link">VIEW DETAILS<span>→</span></a>
+                        <a href="/collection" className="product-link">VIEW DETAILS<span>→</span></a>
                     </div>
                 </div>
                 {/* Product 03 */}
@@ -49,7 +49,7 @@ function Collection() {
                     <div className="product-info">
                         <h3 className="product-name">ZARR VANGUARD<br />BLACK EDITION</h3>
                         <p className="product-price">PKR 99,500</p>
-                        <a href="/shop" className="product-link">VIEW DETAILS<span>→</span></a>
+                        <a href="/collection" className="product-link">VIEW DETAILS<span>→</span></a>
                     </div>
                 </div>
                 {/* Product 04 */}
@@ -60,13 +60,13 @@ function Collection() {
                     <div className="product-info">
                         <h3 className="product-name">ZARR CLASSIC<br />MOONPHASE</h3>
                         <p className="product-price">PKR 87,000</p>
-                        <a href="/shop" className="product-link">VIEW DETAILS <span>→</span></a>
+                        <a href="/collection" className="product-link">VIEW DETAILS <span>→</span></a>
                     </div>
                 </div>
             </div>
             {/* Browse All Watches */}
             <div className="collection-footer">
-                <a href="/shop" className="browse-button">
+                <a href="/collection" className="browse-button">
                     BROWSE ALL WATCHES<span>→</span></a>
             </div>
         </section>
