@@ -7,11 +7,16 @@ import Newsletter from "./components/Newsletter"
 import Footer from "./components/Footer"
 // Import Pages
 import CollectionPage from "./pages/collectionPage";
+import AboutPage from "./pages/aboutPage";
 
 function App() {
     const isCollectionPage = window.location.pathname.startsWith("/collection");
     if (isCollectionPage) {
         return <CollectionPage />;
+    }
+    const isAboutPage = window.location.pathname.startsWith('/about');
+    if (isAboutPage) {
+        return <AboutPage />
     }
 
     return (
