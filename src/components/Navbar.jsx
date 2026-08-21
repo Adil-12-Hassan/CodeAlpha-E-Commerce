@@ -16,7 +16,8 @@ function Navbar() {
                     <li><a href="/">Home</a></li>
                     <li><a href="/collection">Collection</a></li>
                     <li><a href="/about">About Us</a></li>
-                    <li><a href="/journal">Journal</a></li>
+                    <li><a href="/journals">Journal</a></li>
+                    <li><a href="/article">Articles Here</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
