@@ -15,11 +15,13 @@ luxury timepieces for yourself or as a gift for someone special.
 
 ## ✨ Features
 - [x] Landing / Hero Page
-- [ ] Product Collection Page
+- [x] Product Collection Page (frontend)
+- [x] About Page
+- [x] Journals / Blog Page (frontend)
+- [x] Contact Page with responsive three-section layout
+- [x] Shared navigation, footer, dark-green visual theme, and Font Awesome icons
 - [ ] Product Detail Page
-- [ ] About Page
-- [ ] Journals / Blog Page
-- [ ] Newsletter Subscription
+- [ ] Newsletter subscription handling
 - [ ] Cart & Wishlist
 - [ ] User Authentication (JWT)
 - [ ] Checkout & Orders
@@ -70,15 +72,23 @@ REACT_APP_API_URL=http://localhost:5000
 ```
 
 ## 🌐 API Endpoints
-> Backend in progress — will be documented here.
+Backend integration remains to be implemented. API endpoints will be documented here once the Express and MongoDB services are connected.
 
-## 📅 Roadmap
+## 📊 Project Status
+### Completed
 - [x] Project setup & folder structure
 - [x] Hero / Landing page
-- [ ] Collection & Detail pages
+- [x] Collection, About, Journals, and Contact frontend pages
+- [x] Responsive page styling and shared dark-green theme
+- [x] Production build verification
+
+### Remaining
+- [ ] Product detail route and product data
 - [ ] Backend API (Express + MongoDB)
-- [ ] Authentication
-- [ ] Deployment
+- [ ] Connect contact form and newsletter form to the backend
+- [ ] Cart, wishlist, authentication, checkout, and order workflows
+- [ ] Complete the Articles route
+- [ ] Deployment configuration
 
 ## 📄 License
 MIT © Adil Hassan
