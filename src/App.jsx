@@ -10,21 +10,24 @@ import Footer from "./components/Footer"
 import CollectionPage from "./pages/collectionPage";
 import AboutPage from "./pages/aboutPage";
 import Journals from "./pages/journalsPage";
-
+import ContactPage from "./pages/contactPage";
 function App() {
     const isCollectionPage = window.location.pathname.startsWith("/collection");
     if (isCollectionPage) {
         return <CollectionPage />;
     }
-    const isAboutPage = window.location.pathname.startsWith('/about');
+    const isAboutPage = window.location.pathname.startsWith("/about");
     if (isAboutPage) {
-        return <AboutPage />
+        return <AboutPage />;
     }
-    const isJournalPage = window.location.pathname.startsWith("/journals")
+    const isJournalPage = window.location.pathname.startsWith("/journals");
     if (isJournalPage) {
-        return <Journals />
+        return <Journals />;
     }
-
+    const isContactPage = window.location.pathname.startsWith("/contact");
+    if (isContactPage) {
+        return <ContactPage />;
+    }
     return (
         <>
             <Navbar />
